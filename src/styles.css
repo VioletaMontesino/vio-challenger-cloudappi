@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~font-awesome/css/font-awesome.css';
+
+html {
+    font-size: 1.0em;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #92958273;
+}
+.title {
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    color: #8b461c;
+}
+
+th, td {
+    font-weight: 900;
+}
+
+
