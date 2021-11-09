@@ -16,5 +16,5 @@ Se ha probado el servicio directamente realizando una colección Postman que se 
 # Esquema del proyecto
 Se ha realizado el siguiente esquema para explicar la funcionalidad.
 
-![Esquema](https://github.com/VioletaMontesino/challengerCloudappi/blob/master/front/src/assets/angular_log.png)
+![Esquema](https://github.com/VioletaMontesino/vio-challenger-cloudappi/blob/master/src/assets/angular_log.png)
 
