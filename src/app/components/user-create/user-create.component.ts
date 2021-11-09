@@ -32,26 +32,13 @@ export class UserCreateComponent implements OnInit {
       name: this.userForm.get('name')?.value,
       email: this.userForm.get('email')?.value
     }
-
-    if(this.id !== null) {
-      this._userService.editUser(this.id, USER).subscribe(data => {
-        this.router.navigate(['/']);
-      },error => {
-        console.log(error);
-        this.userForm.reset();
-      })
-    } else {
-      console.log(USER);
-      this._userService.saveUser(USER).subscribe(data => {
-        console.log("Usuario añadido")
-      }, error => {
-        console.log(error);
-        this.userForm.reset();
-      })
-      this.router.navigate(['/']);
-    }
-
-  
+    this._userService.saveUser(USER).subscribe(data => {
+      alert("Usuario añadido")
+    }, error => {
+      console.log(error);
+      this.userForm.reset();
+    })
+    this.router.navigate(['/']);
   }
 
   editUser() {
